@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #8B0000; /* Dark red/burgundy color */
+}
+
+header {
+    margin: 20px 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    margin: 20px 0; /* Add space above and below the navigation */
+    display: flex; /* Display links in a single line */
+    justify-content: center; /* Center the links */
+}
+
+nav ul li {
+    margin: 0 10px; /* Space between links */
+}
+
+nav ul li a {
+    color: blue; /* Links are blue */
+    text-decoration: underline;
+}
+
+main {
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #8B0000; /* Dark red/burgundy color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+form {
+    width: 300px;
+    margin: 0 auto; /* Center the form */
+    text-align: left; /* Align text to the left */
+}
+
+form div {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px; /* Space between label and input */
+    color: #8B0000; /* Dark red/burgundy color */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+form button {
+    background-color: #8B0000; /* Dark red/burgundy color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px; /* Space above the button */
+}
+
+form button:hover {
+    background-color: #a94442; /* Lighter shade of red */
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #8B0000; /* Dark red/burgundy color */
+}
