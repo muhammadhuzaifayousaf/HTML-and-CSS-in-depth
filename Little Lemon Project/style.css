@@ -1,0 +1,127 @@
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#main-logo {
+    max-width: 250px;
+    height: auto;
+}
+
+nav {
+    background-color: #495E57;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul a {
+    color: #EDEFEE;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px #333;
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+article {
+    flex: 1;
+    margin: 0 1rem;
+    padding: 1rem;
+    background-color: #F5F5F5;
+    text-align: center;
+    border-radius: 10px;
+}
+
+article a {
+    color: orange;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article a:visited {
+    color: blue;
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #EDEFEE;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #333;
+}
+
+footer img {
+    max-width: 50px;
+    height: auto;
+}
+
+footer p {
+    margin: 0;
+    align-self: center;
+}
+
+@media (max-width: 800px) {
+    section {
+        flex-direction: column;
+    }
+
+    article {
+        margin: 1rem 0;
+    }
+}
