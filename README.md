@@ -1,9 +1,7 @@
 # HTML-and-CSS-in-depth
-<br/>
-
+[![My Certificate](https://github.com/user-attachments/assets/7d21a4ef-39a8-4023-8f73-c9debd62e41a)](https://coursera.org/verify/NEGXHX9NAUF1)
 ## My Workspace for the Coursera HTML and CSS in depth course
-### [My Certificate](https://coursera.org/verify/NEGXHX9NAUF1)
-### Final Project: [Little Lemon Restaurant](https://github.com/muhammadhuzaifayousaf/HTML-and-CSS-in-depth/tree/main/Little%20Lemon%20Project)
+### Final Project: [Little Lemon Restaurant](https://muhammadhuzaifayousaf.github.io/HTML-and-CSS-in-depth/)
 <br/>
 
 ## :warning: Disclaimer:
